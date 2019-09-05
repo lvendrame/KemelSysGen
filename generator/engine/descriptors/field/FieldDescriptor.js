@@ -8,6 +8,7 @@ export default class FieldDescriptor {
         this.feature = feature;
         this.validators = validators;
         this.usageType = usageType;
+        this.parent = null;
     }
 
     appendValidator(validator) {
